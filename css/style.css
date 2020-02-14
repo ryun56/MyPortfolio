@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+html{
+    font-size: 62.5%;
+}
+*,*::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    /* 背景画像をスクロールされないようにし、シングルページレイアウトらしい視覚効果を演出 */
+    background: #151515 no-repeat fixed left bottom;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: 'Raleway', "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+/* ABOUT */
+
+.header{
+    padding: 170px 30px 80px;
+}
+
+.header-title-sub{
+    margin: 0 0 30px;
+    letter-spacing: 1px;
+    font-size: 2.2rem;
+}
+/* テキスト両端の線 */
+.header-title-sub::before,
+.header-title-sub::after{
+    content: '';
+    display: inline-block;
+    width: 140px;
+    height: 2px;
+    margin: 0 30px;
+    background-color: #fff;
+    vertical-align: middle;
+}
+
+.header-title{
+    margin: 50px 0 40px;
+    font-size: 5.6rem;
+}
+
+.button{
+    display: inline-block;
+    width: 140px;
+    padding: 15px;
+    border-radius: 4px;
+    background-color: #afa58d;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 1.7rem;
+    transition: all .3s;
+}
+.button:hover{
+    opacity: 0.9;
+    background-color: #fff;
+    color: #000;
+
+}
+
+.about{
+    padding: 80px 30px;
+    background-color: #fff;
+    color: #333;
+}
+
+.section-title{
+    position: relative;
+    display: inline-block;
+    margin: 30px 0 15px;
+    padding-bottom: 7px;
+    letter-spacing: 2px;
+    font-size: 4rem;
+}
+.section-title::before{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+    left: 0;
+    border-bottom: 1px solid #999;
+
+}
+.section-title::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 1px;
+    left: 0;;
+    border-bottom: 1px solid #999;
+}
+
+.about-text{
+    margin: 30px 0;
+    line-height: 2.5;
+}
+/* SKILL */
+
+
+/* WORKS */
+.works{
+    background-color: #383634;
+    padding: 80px 0;
+    
+}
+
+
