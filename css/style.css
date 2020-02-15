@@ -107,7 +107,28 @@ body{
 .works{
     background-color: #383634;
     padding: 80px 0;
-    
+}
+.works-wrapper{
+    display: table;
+    width: 100%;
+    margin-top: 60px;
+    table-layout: fixed;
+}
+.work-box{
+    display: table-cell;
+}
+.work-image{
+    display: block;
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+}
+.image{
+    display: inline-block;
+    height: 100%;
+}
+img{
+    height: 100%;
 }
 
 
