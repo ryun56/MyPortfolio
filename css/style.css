@@ -115,13 +115,6 @@ th,td{
     padding: 10px;
 }
 
-
-
-
-
-
-
-
 /* WORKS */
 .works{
     background-color: #383634;
@@ -165,3 +158,51 @@ img{
 }
 
 
+/* CONTACT */
+.contact{
+    padding: 80px 0 150px;
+}
+.contact-form{
+    width: 50%;
+    margin: 50px auto 0
+}
+.contact-form input[type=text],
+.contact-form textarea{
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 0;
+    background-color: white;
+    color: #000;
+    outline: none;
+}
+.contact-form textarea{
+    height: 150px;
+}
+.contact-form input[type=text]:focus,
+.contact-form textarea:focus{
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
+}
+.contact-form input[type=submit]{
+    display: block;
+    width: 200px;
+    margin: 20px auto 0;
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+    font-size: 1.4rem;
+    outline: none;
+}
+.contact-form input[type=submit]:hover{
+    background-color: rgba(255, 255, 255, 0.05);;
+}
+
+.footer{
+    padding: 12px 0;
+    font-size: 1.3rem;
+}
