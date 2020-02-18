@@ -206,3 +206,46 @@ img{
     padding: 12px 0;
     font-size: 1.3rem;
 }
+
+/* レスポンシブ対応化、今回はスマートフォンとタブレット向けの記述のみ */
+@media (max-width: 768px){
+.header-title-sub::before,
+.header-title-sub::after{
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    font-size: 1.7rem;
+}
+.header-title{
+    margin-top: 35px;
+    font-size: 5rem;
+}
+.button{
+    margin: 5px;
+}
+.button:hover{
+    opacity: 1;
+}
+
+.section-title{
+    font-size: 2.5rem;
+}
+.body{
+    font-size: 1.3rem;
+}
+.about-text{
+    line-height: 1.8;
+}
+
+.works-wrapper,
+.work-box{
+    display: block;
+}
+.work-box{
+    margin-bottom: 60px;
+}
+
+.contact-form{
+    width: 80%;
+}
+}
