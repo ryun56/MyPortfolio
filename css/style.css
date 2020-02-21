@@ -50,7 +50,7 @@ body{
     width: 140px;
     padding: 15px;
     border-radius: 4px;
-    background-color: #afa58d;
+    background-color: rgb(54, 134, 220);
     color: #fff;
     text-decoration: none;
     letter-spacing: 1px;
@@ -76,23 +76,6 @@ body{
     padding-bottom: 7px;
     letter-spacing: 2px;
     font-size: 4rem;
-}
-.section-title::before{
-    content: '';
-    position: absolute;
-    right: 0;
-    bottom: 5px;
-    left: 0;
-    border-bottom: 1px solid #999;
-
-}
-.section-title::after{
-    content: '';
-    position: absolute;
-    right: 0;
-    bottom: 1px;
-    left: 0;;
-    border-bottom: 1px solid #999;
 }
 
 .about-text{
