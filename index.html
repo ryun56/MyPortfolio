@@ -23,7 +23,7 @@
           <!-- この辺りにページ最終更新日も追加する -->
         <section class="about" id="about">
             <h2 class="section-title">ABOUT ME</h2>
-            <p class="about-text">
+            <div class="about-text">
                 1995年6月5日生まれ。
                 大学卒業後、「将来性がある」「多くの人に役に立つものをつくる」を軸に自動車関係の受託開発企業に就職。
                 しかし
@@ -31,7 +31,7 @@
                 ・転職活動をする上で、web系のエンジニアの「将来性があり、より多くの人に役立つ便利なもの・サービスをつくり、快適な世の中にさせていく」ことが可能であること、また自分の身の回りの生活に深く関わっているため、その分それについて深く考えていく機会が多いことから転職することを決意。
                 市場価値の高い人材を目指し、独学でweb技術（html.css,JavaScript,jquery,php）を学ぶ。
                 常に世の中の問題について考え、仮説を立て、解決のために自ら行動することを心がけている。
-            </p>
+            </div>
         </section>
 
         <section class="skills" id="skill">
@@ -106,20 +106,21 @@
         <section class="contact" id="contact">
             <h2 class="section-title">CONTACT</h2>
             <form class="contact-form">
-                名前
-                <input class="" type="text" name="name" placeholder="NAME">
-                メールアドレス
-                <input type="text" name="email" placeholder="e-mail">
-                問い合わせ内容
-                <textarea name="message" placeholder="MESSAGE"></textarea>
+                <label for="name">お名前</label>
+                <input type="text" id="name" placeholder="NAME">
+                <label for="email">メールアドレス</label>
+                <input type="text" id="email" placeholder="e-mail">
+                <label for="message">お問い合わせ内容</label>
+                <textarea id="message" placeholder="MESSAGE"></textarea>
                 <input type="submit" value="SEND">
             </form>
         </section>
         <footer class="footer">
                 Copyright&copy;Ryusuke Wakayama. All Rights Reserved.
         </footer>
-        <!-- IE対応ライブラリ -->
-        <script src=""></script>
+
     </div>
+    <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
 </body>
 </html>
