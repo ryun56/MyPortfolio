@@ -149,6 +149,7 @@ th,td{
     display: inline-block;
     width: 30%;
     padding: 10px;
+    font-size: 1.6rem;
 }
 
 /* WORKS */
@@ -198,8 +199,17 @@ th,td{
 
 
 /* CONTACT */
+.required{
+    display: inline-block;
+    margin-left: 5px;
+    margin-bottom: 3px;
+    padding: 1px 2px;;
+    border-radius: 3px;
+    background-color: red;
+    color: white;
+}
 .contact{
-    padding: 80px 0 150px;
+    padding: 80px 0 70px;
 }
 .contact-form{
     width: 50%;
@@ -247,6 +257,8 @@ th,td{
     padding: 12px 0;
     font-size: 1.3rem;
 }
+
+
 
 /* レスポンシブ対応化、今回はスマートフォンとタブレット向けの記述のみ */
 @media (max-width: 768px){
