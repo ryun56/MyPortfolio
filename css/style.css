@@ -89,7 +89,7 @@ dd{
     display: inline-block;
     margin-left: 0;
     padding: 3px 10px;
-    width: 60%;
+    width: 100%;
     border: solid 3px #000000;
 }
 
@@ -145,7 +145,6 @@ table{
     border-spacing:3px;
 }
 th,td{
-    /* display: inline-block; */
     display: inline-block;
     width: 30%;
     padding: 10px;
@@ -295,7 +294,9 @@ th,td{
 .about-text{
     line-height: 1.8;
 }
-
+ul{
+    padding-left: 30px;
+}
 .works-wrapper,
 .work-box{
     display: block;
@@ -306,6 +307,9 @@ th,td{
 
 .contact-form{
     width: 80%;
+}
+iframe{
+    height: 900px;
 }
 
 }
