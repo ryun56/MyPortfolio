@@ -7,7 +7,7 @@
 ## 使用言語
 - HTML5
 - CSS3
-- Javascript
+- Javascript（jQuery)
 
 ## 開発環境
 - Mac OS
@@ -26,8 +26,8 @@
 
 3.レスポンシブデザイン対応してサイト構築がしやすい
 
-# Author
-
-E-mail　wakwakugit@gmail.com
+# お問い合わせに関して
+ポートフォリオ内のお問い合わせフォームまたは
+E-mail　wakwakugit@gmail.com　にてよろしくお願いいたします。
 
 
